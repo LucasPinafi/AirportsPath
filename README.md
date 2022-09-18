@@ -12,7 +12,7 @@
       *    [Distance](#Distance)
       *    [GetDataBaseConnection](#GetDataBaseConnection)
       *    [GetDataBaseInfos](#GetDataBaseInfos)
-   * Banco de dados(#Banco de dados)
+   * [Banco de dados](#Banco de dados)
 <!--te-->
 
 # Sobre 
