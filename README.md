@@ -4,7 +4,7 @@
    * [Sobre](#Sobre)
    * [Funcionamento](#Funcionamento)
    * [Organização](#Organização)
-      *    [AppClass](###App)
+      *    [AppClass](#App)
 <!--te-->
 
 # Sobre 
