@@ -120,5 +120,5 @@ Classe responsável por coletar os dados sobre os aeroportos no banco de dados S
 ### SaveInfos
 Classe responsável por salvar os dados sobre as pesquisas realizadas. Cada vez que o usuário pesquisa por algo, haverá um salvamento automático diretamente no banco de dados. Como a rota é variável, verifiquei qual era o número máximo de escalas que poderiam ocorrer (que é de 6). Quando houver um valor menor do que 6, então os valores restantes da tabela será preenchida com "XXX". Pode-se ver abaixo uma demonstração do salvamento. 
 <h1 align="center">
-  <img alt="Save" title="#Save" src="./git_hub_assets/save.png" />
+  <img alt="Save" title="#Save" src="./git_hub_assets/save.gif" />
 </h1>
