@@ -10,6 +10,9 @@
       *    [Brain](#Brain)
       *    [Dijkstra](#Dijkstra)
       *    [Distance](#Distance)
+      *    [GetDataBaseConnection](#GetDataBaseConnection)
+      *    [GetDataBaseInfos](#GetDataBaseInfos)
+   * Banco de Dados
 <!--te-->
 
 # Sobre 
@@ -112,4 +115,10 @@ static public Connection get_database_connection() {
 Observe que o método retorna uma ```Connection``` caso a conexão seja bem estabelecida. Caso contrário, retornará ```null```, o que ocasionará um erro no programa, e o programa encerrará com uma mensagem de erro ao usuário. 
 
 ### GetDataBaseInfos
-Classe responsável por coletar os dados sobre os aeroportos no MySQL. Esse método retorna um Map de aeroportos, com todas as informações dos aeroportos já preenchida - isto é, nome, nome do estado, IATA, latitude, longitude e rotas. 
+Classe responsável por coletar os dados sobre os aeroportos no banco de dados SQL. Esse método retorna um Map de aeroportos, com todas as informações dos aeroportos já preenchida - isto é, nome, nome do estado, IATA, latitude, longitude e rotas. 
+
+### SaveInfos
+Classe responsável por salvar os dados sobre as pesquisas realizadas. Cada vez que o usuário pesquisa por algo, haverá um salvamento automático diretamente no banco de dados. Como a rota é variável, verifiquei qual era o número máximo de escalas que poderiam ocorrer (que é de 6). Quando houver um valor menor do que 6, então os valores restantes da tabela será preenchida com "XXX". Pode-se ver abaixo uma demonstração do salvamento. 
+<h1 align="center">
+  <img alt="Save" title="#Save" src="./git_hub_assets/save.png" />
+</h1>
