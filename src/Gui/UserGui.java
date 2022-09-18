@@ -1,6 +1,7 @@
 package Gui;
 
 import Airports.Airport;
+import DataBase.SaveInfos;
 import Logic.Brain;
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -52,6 +53,7 @@ public class UserGui extends JFrame implements ItemListener {
             for(int i = 0; i < paths.size(); i++) {
                 route_text[i+1].setText(paths.get(i).get_name() + " (" + paths.get(i).get_state_name() + ")");
             }
+            SaveInfos.save_infos(paths, NUM_MAX_PATH);
         });
 
         JPanel panel = new JPanel();
@@ -91,7 +93,6 @@ public class UserGui extends JFrame implements ItemListener {
         for(int i = 0; i < NUM_MAX_PATH; i++) {
             panel.add(route_text[i]);
         }
-
         frame.add(panel);
         frame.setVisible(true);
     }
