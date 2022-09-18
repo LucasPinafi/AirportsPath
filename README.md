@@ -12,7 +12,7 @@
       *    [Distance](#Distance)
       *    [GetDataBaseConnection](#GetDataBaseConnection)
       *    [GetDataBaseInfos](#GetDataBaseInfos)
-   * Banco de Dados
+   * Banco de dados(#Banco de dados)
 <!--te-->
 
 # Sobre 
@@ -129,4 +129,7 @@ Para construir o banco de dados, segui o passo-a-passo descrito a seguir:
 * Através de uma API, consegui obter a latitude e a longitude do aeroporto em questão. Com isso, foi possível montar a tabela AIRPORTS.
 * Obtive, da internet, um arquivo CSV com as rotas de muitos aeroportos mundiais. 
 * Com os dados obtidos no primeiro passo, e com o arquivo CSV em mãos, ficou fácil criar uma tabela chamada de ROUTES, onde a primeira coluna consiste em um dado aeroporto, e a segunda coluna consiste numa possível rota que ele pode fazer. 
-Com essas informações foi bastante fácil popular o banco de dados com as informações obtidas. 
+Com essas informações foi bastante fácil popular o banco de dados com as informações obtidas. A lógica da criação das tabelas está demonstrada na imagem abaixo.
+<h1 align="center">
+  <img alt="Bd" title="#Bd" src="./git_hub_assets/bd.png" />
+</h1>
