@@ -3,7 +3,7 @@
 <!--ts-->
    * [Sobre](#Sobre)
    * [Funcionamento](#Funcionamento)
-   * [Organização](#Organizacao)
+   * [Organização](#Organização)
       *    [AppClass](##App)
 <!--te-->
 
@@ -22,4 +22,4 @@ A lógica do projeto foi organizada com a seguinte formatação.
 <h1 align="center">
   <img alt="Org" title="#Org" src="./git_hub_assets/organizacao.png" />
 </h1>
-## App Class
+# App Class
